@@ -5,6 +5,9 @@ import { Welcome } from "./components/Welcome";
 import { useState } from "react";
 import { NewRecord } from './components/NewRecord';
 import { UpdateRecord } from './components/UpdateRecord';
+import ComponentOne from './components/ComponentOne';
+import ComponentTwo from './components/ComponentTwo';
+import ComponentThree from './components/ComponentThree';
 export const base_url =
   "https://react-demo-97e86-default-rtdb.asia-southeast1.firebasedatabase.app";
 export const paths = {
@@ -130,6 +133,11 @@ function App() {
         <UpdateRecord />
       </session4>
 
+     </div>
+     <div>
+     <ComponentOne />
+      <ComponentTwo />
+      <ComponentThree />
      </div>
     </>
   );
